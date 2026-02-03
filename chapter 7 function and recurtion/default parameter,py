@@ -1,0 +1,5 @@
+def goodDay(name, ending="thanku"):
+    print("good day")
+    print(ending)
+
+goodDay("harry")
