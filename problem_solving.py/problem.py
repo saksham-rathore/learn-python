@@ -1,6 +1,5 @@
-num = int(input("Enter a number: "))
-fact = 1
-for i in range(1, num + 1):
-    fact *= i
-
-print("Factorial =", fact)
+my_list = [10, 5, 20, 15, 25]
+print("Initial List:", my_list)
+del my_list[0]
+print("\nAfter Deleting element at index 0:")
+print(my_list)
